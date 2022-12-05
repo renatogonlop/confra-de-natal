@@ -1,0 +1,330 @@
+body,
+input,
+button {
+	cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Christmas_Tree_Cursor.png), default !important;
+
+}
+
+
+.justo {
+	text-align: justify !important;
+}
+
+.btnEsquerda {
+	text-align: left !important;
+	color: white !important;
+	text-shadow: #292929 -1px 1.2px 3px;
+}
+
+.noFocus:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.semFundo {
+	background-color: #ffd83b96 !important;
+	text-align: justify !important;
+}
+
+.corBorda {
+	border: 2px solid #ffd83b96 !important;
+}
+
+.quadroObserv {
+	padding: 2% !important;
+	border-radius: 20px !important;
+	background-color: #ffe788de !important;
+	border: solid 2px rgba(245, 245, 245, 0.541);
+	text-align: justify !important;
+	margin: 1.5% 5% 0 5%;
+
+}
+
+.quadroObserv2 {
+	padding: 2% !important;
+	border-radius: 20px !important;
+	background-color: #ffffffde !important;
+	border: solid 2px rgba(245, 245, 245, 0.541);
+	text-align: justify !important;
+	margin: 1.5% 5% 0 5%;
+	color: black !important;
+
+}
+
+
+
+#artigoConteiner h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Cocogoose !important;
+}
+
+#menu0,
+#menu1,
+#menu2,
+#menu3 p {
+	font-family: CocogooseLight !important;
+	font-size: 18px;
+	color: #292929;
+}
+
+.bg-amareloDegra1 {
+	background: rgb(255, 204, 9);
+	background: -moz-linear-gradient(180deg, rgba(255, 204, 9, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255, 204, 9, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background: linear-gradient(180deg, rgba(255, 204, 9, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffcc09", endColorstr="#ffffff", GradientType=1);
+}
+
+.bg-vermelhoDegra2 {
+	background: #AA3A3A;
+	background: -moz-linear-gradient(180deg, #AA3A3A 0%, rgba(255, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(180deg, #AA3A3A 0%, rgba(255, 255, 255, 1) 100%);
+	background: linear-gradient(180deg, #AA3A3A 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+.bg-amarelo {
+	background-color: #ffd322 !important;
+}
+
+.bg-vermelho {
+	background-color: #862525 !important;
+}
+
+
+
+.btn-outline-light {
+	color: #000;
+	background-color: #e62155 !important;
+	border-color: #e62155 !important;
+}
+
+
+.btn-outline-light:hover {
+	color: #e62155 !important;
+	background-color: #e4cad181 !important;
+	border-color: #e6215579 !important;
+}
+
+
+
+
+
+[data-letters]:before {
+	content: attr(data-letters);
+	display: inline-block;
+	font-size: 1em;
+	width: 3em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	border-radius: 50%;
+	background: #fbb81c;
+	vertical-align: middle;
+	margin-right: 1em;
+	color: black;
+}
+
+
+.carousel-caption2 {
+	position: absolute;
+	right: 5%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center
+}
+
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 10px !important;
+	height: 10px !important;
+	margin-right: 3px !important;
+	margin-left: 3px !important;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #fff;
+	background-clip: none !important;
+	border: none !important;
+	border-bottom: none !important;
+	opacity: .5;
+	transition: opacity .6s ease;
+	border-radius: 5px !important;
+}
+
+.carousel-inner {
+	border-radius: 10px !important;
+}
+
+#containerCertf, #bloco2cont {
+	padding: 0 15% 0 15%;
+
+}
+
+
+#entradaNome, #entradaTalento {
+	text-align: center;
+
+}
+
+.bordaTp {
+	border-radius: 40% 40% 0% 0%;
+	width: 120px !important;
+}
+.bordaDw {
+	border-radius: 0% 0% 50% 50% ;
+	border: none;
+}
+
+
+
+
+@media (max-width: 790px) {
+
+	#logo1 {
+		width: 150px;
+	}
+
+	#logo2 {
+		width: 100px;
+	}
+
+	#containerCertf, #bloco2cont {
+		padding: 0 10% 0 10%;
+
+	}
+	.bordaTp {
+		font-size: small;
+	}
+}
+
+
+
+
+/* THE MODAL */
+
+/* The Modal (background) */
+.incricaoModal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.inscricaoModal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+
+@keyframes animatetop {
+	from {
+		top: -300px;
+		opacity: 0
+	}
+
+	to {
+		top: 0;
+		opacity: 1
+	}
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;
+}
+
+.modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+
+.txt-beige {
+	color: beige !important;
+}
+
+.txt-red {
+	color: #862525 !important;
+}
+
+.txt-pretoClaro {
+	color: #00000080 !important;
+}
+
+
+.font-christmas {
+	font-family: 'Mountains of Christmas', cursive !important;
+}
+
+.font-satisfy {
+	font-family: 'Satisfy', cursive !important;
+}

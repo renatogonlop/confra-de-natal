@@ -1,0 +1,69 @@
+#agenciaHorario,
+#agenciaEnd,
+#agenciaComp,
+#agenciaBairro,
+#agenciaRef {
+    font-weight: normal;
+}
+
+th {
+    vertical-align: text-bottom !important;
+    word-wrap: normal !important;
+}
+
+
+table {
+    border-radius: 10px;
+}
+
+.btn-warning:hover {
+    color: rgb(133, 54, 1) !important;
+}
+
+.tabelaCartaoP1 {
+    background-color: #A4B787 !important;
+    color: beige !important;
+    text-align: right !important;
+}
+
+.tabelaCartaoP2 {
+    background-color: #745a94 !important;
+    color: beige !important;
+    text-align: right !important;
+}
+
+.containerCartao {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+
+
+}
+
+#iframeCard {
+    border: 3px white solid !important;
+    margin-left: 40px !important;
+    width: 400px !important;
+    height: 500px !important;
+    border-radius: 10px !important;
+}
+
+
+
+
+@media (max-width: 790px) {
+    .containerCartao {
+        /* border: solid red 1px; */
+        word-wrap: normal !important;
+        margin-left: 0 !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    #iframeCard {
+        margin-left: 0px !important;
+        width: 100% !important;
+        border-radius: 10px !important;
+    }
+
+}
