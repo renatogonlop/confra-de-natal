@@ -2,8 +2,8 @@
 const dataAtual = new Date();
 const anoAtual = dataAtual.getFullYear();
 let ano = getElementById('anoDate')
-
 ano.innerHTML = `Confraternização de Natal<br>${anoAtual}`
+
 
 // Ao clicar no botão
 function envia() {
@@ -79,8 +79,6 @@ function envia() {
 
 
 };
-
-
 
 //Abre/fecha blocos
 function yes() {
